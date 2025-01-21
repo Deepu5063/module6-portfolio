@@ -105,10 +105,12 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+}
 /* about section start */
 .about{
     border-radius: 10px;
-    margin: 130px 0 130px 0;
     padding: 131px 150px;
     text-align: center;
 }
@@ -122,6 +124,9 @@ main{
     height: 120px;
     color: rgb(117, 117, 117);
 }
+.text-center{
+    text-align: center;
+}
 .informations{
     display: flex;
     justify-content: space-around;
@@ -132,4 +137,17 @@ main{
 .i-descripton{
     font-weight: 600;
     margin-top: 0px;
+}
+/* Skills section start */
+.description{
+    margin: 0 auto;
+}
+.all-skills{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.06);
 }
