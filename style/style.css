@@ -8,6 +8,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     margin: 10px 100px;
+    margin-left: 230px;
 }
 .nav-title{
     font-weight: 800;
@@ -31,7 +32,7 @@ nav li a{
 .dark-2{
     color: rgb(71, 71, 71);
 }
-.hire-me{
+.primary-btn{
     background-color: rgb(253, 110, 10);
     font-size: 20px;
     color: white;
@@ -39,6 +40,54 @@ nav li a{
     border: none;
     border-radius: 5px;
     padding: 18px 35px;
+    transition: 0.3s;
+    cursor: pointer;
     /* height: 64px;
     width: 150px; */
+}
+.primary-btn:hover{
+    background-color: rgba(253, 111, 10, 0.418);
+    color: white;
+}
+/* Banner style */
+.banner{
+    display: flex;
+    /* position: absolute; */
+    background-image: url();
+    justify-content: space-between;
+    margin: 0;
+}
+.content{
+    /* position: absolute; */
+    width: 585px;
+    height: 356px;
+    margin-left: 230px;
+    }
+    
+.text-b{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+  color: rgb(24, 24, 24);
+  /* font-family: Open Sans; */
+  font-size: 85px;
+  font-weight: 700;
+}
+.banner-text{
+/* color: rgb(117, 117, 117); */
+/* font-family: Open Sans; */
+font-size: 18px;
+font-weight: 400;
+}
+.banner-img{
+width: 584px;
+height: 676px;
+margin-right: 38px;
+}
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    margin-top: 38px;
+    background-position: top left ,bottom right ;
 }
